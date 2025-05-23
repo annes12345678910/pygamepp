@@ -21,5 +21,25 @@
 Install via pip:
 
 ```bash
-pip install pygameplusplus
+pip install pygamepp
 ```
+## 🛠️ Usage Example
+```python
+import pygame
+import pygamepp as ppp
+
+# Example: Create a game window and run a basic loop
+window = ppp.Game(title="Hello Pygame++")
+def update(window):
+  print("Update!!!")
+window.update = update
+window.run()
+```
+
+---
+
+## 🧪 Requirements
+- Python 3.7+
+- pygame
+- cairosvg (for converting .svg files)
+- cairo c library

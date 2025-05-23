@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pygameplusplus",
-    version="0.0.1",
+    name="pygamepp",
+    version="0.0.2",
     author="Annes",
     description="Better pygame",
     long_description=open("README.md").read(),

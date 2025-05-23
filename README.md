@@ -1,6 +1,9 @@
 # pygame++
 better than pygame.
 
+Install requirements:
+`pip install pygame cairosvg`
+
 But not as annoying as pgzero
 
 Here on github i didn't put the someassets folder because its too much.

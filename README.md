@@ -43,3 +43,10 @@ window.run()
 - pygame
 - cairosvg (for converting .svg files)
 - cairo c library
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you’d like to suggest a feature or submit a pull request, please open an issue or fork the project.
+

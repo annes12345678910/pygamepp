@@ -1,14 +1,19 @@
 # pygame++
 better than pygame.
 
-Install requirements:
-`pip install pygame cairosvg`
-
 But not as annoying as pgzero
 
 Here on github i didn't put the someassets folder because its too much.
 
 ## How to use
+
+Install requirements:
+`pip install pygame cairosvg`
+
+`brew install cairo`
+
+on mac:
+`pip3 install pygame cairosvg`
 
 you need to import first (I personally recommend wildcard)
 

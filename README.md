@@ -1,41 +1,25 @@
 # pygame++
-better than pygame.
 
-But not as annoying as pgzero
+**Enhanced utilities and tools for Pygame development.**
 
-Here on github i didn't put the someassets folder because its too much.
+`pygame++` (pygameplusplus) is a lightweight Python library that extends the capabilities of [Pygame](https://www.pygame.org/) by offering extra features, simplified patterns, and useful abstractions to speed up game development and UI creation.
 
-## How to use
+---
 
-Install requirements:
-`pip install pygame cairosvg`
+## ✨ Features
 
-`brew install cairo`
+- 🚀 Simplified object and scene management
+- 🖱️ Advanced input handling and events
+- 🎮 UI helpers and overlays (works great with `pygame_gui`)
+- 🧠 Modular and easy-to-extend structure
+- 🔧 Designed for use with `pygame` projects and tools like `pygame_gui`
 
-on mac:
-`pip3 install pygame cairosvg`
+---
 
-you need to import first (I personally recommend wildcard)
+## 📦 Installation
 
-`from pygamepp import *`
+Install via pip:
 
-then make a game variable with Game()
-
-`game = Game()`
-
-you could even put resizeable/fullscreen args, width and height, and title
-
-but that is not required
-
-you can define draw and update functions and then do this:
-
-`
-def draw(game):
-  pass
-def update(game, events):
-  pass
-game.draw = draw
-game.update = update
-
-game.run()
-`
+```bash
+pip install pygameplusplus
+```

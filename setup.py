@@ -9,7 +9,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/yourusername/pygameplusplus",
     packages=find_packages(),
-    install_requires=["pygame"],
+    install_requires=["pygame", "cairosvg"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
